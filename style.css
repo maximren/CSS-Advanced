@@ -8,8 +8,6 @@
   flex-direction: column;
 }
 
-/*upper block*/
-
 .container-top {
   background: #3b5998;
   height: 90px;
@@ -18,21 +16,14 @@
   box-sizing: border-box;
 }
 
-@font-face { 
-  font-family: Klavika;
-  src: url("Klavika.ttf");
-}
-
 .fb {
-color: white;
-font-size: 45px;
-font-family: Klavika;
-display: inline-block;
-margin-left: 190px;
-margin-top: 30px;
+  color: white;
+  font-size: 45px;
+  font-family: Klavika;
+  display: inline-block;
+  margin-left: 190px;
+  margin-top: 30px;
 }
-
-
 
 .enter {
   display: flex;
@@ -45,11 +36,12 @@ margin-top: 30px;
   font-size: 12px;
 }
 
-.enter > div > div {
+.enter>div>div {
   margin-bottom: 5px;
 }
 
-.log, .pas {
+.log,
+.pas {
   width: 140px;
   height: 20px;
   padding: 2px;
@@ -97,13 +89,9 @@ a:hover {
   background: #29487d;
 }
 
- 
-
 input {
   outline: none;
 }
-
-/*middle block*/
 
 .container-mid {
   background: #e9ebee;
@@ -113,7 +101,6 @@ input {
   justify-content: center;
   align-items: center;
 }
-
 
 .finding {
   display: flex;
@@ -143,7 +130,7 @@ input {
 }
 
 .upline {
-   display: flex;
+  display: flex;
   justify-content: center;
   height: 10px;
   width: 100%;
@@ -170,7 +157,6 @@ input {
   margin-bottom: 5px;
   margin-left: 60px;
   font-size: 15px;
-
 }
 
 .bottom-part {
@@ -190,7 +176,7 @@ input {
   background: #f2f2f2;
   width: 100%;
   border-top: 1px solid #ccc;
-  flex: 0 1 52px; 
+  flex: 0 1 52px;
 }
 
 .bot-content {
@@ -198,15 +184,15 @@ input {
   justify-content: flex-end;
   align-items: center;
   width: 90%;
-
 }
 
 .bradius {
   border-radius: 2px;
 }
 
-
-.canc, .plus {background: #f6f7f9;
+.canc,
+.plus {
+  background: #f6f7f9;
   height: 25px;
   width: 50px;
   padding: 2px;
@@ -225,8 +211,6 @@ input {
 .canc:active {
   background: lightgrey;
 }
-
-/*bottom block*/
 
 .container-bot {
   display: flex;
@@ -296,5 +280,3 @@ input {
   margin-right: 990px;
   margin-top: 20px;
 }
-
-
